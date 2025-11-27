@@ -1,0 +1,5 @@
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/monitor-test.sh
+StandardOutput=journal
+StandardError=journal
